@@ -1,10 +1,11 @@
-const { config } = require('./wdio.shared.conf.ts');
+import { config as baseConfig } from './wdio.shared.conf';
 
-exports.config = {
+// eslint-disable-next-line import/prefer-default-export
+export const config = {
   /**
    * base config
    */
-  ...config,
+  ...baseConfig,
   /**
    * config for local testing
    */
@@ -15,14 +16,16 @@ exports.config = {
       browserName: 'chrome',
       acceptInsecureCerts: true,
       'goog:chromeOptions': {
-        args: process.argv.includes('--headless')
-          ? ['--headless', '--disable-gpu']
-          : [],
+        args: process.argv.includes('--headless') ? ['--headless', '--disable-gpu'] : [],
       },
     },
     {
       browserName: 'firefox',
       acceptInsecureCerts: true,
+      'moz:firefoxOptions': {
+        binary: '/Applications/Firefox Developer Edition.app/Contents/MacOS/firefox-bin',
+      },
+      port: 4444,
     },
   ],
 };
