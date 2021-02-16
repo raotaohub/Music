@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { join } from 'path';
 
 // eslint-disable-next-line import/prefer-default-export
