@@ -2,8 +2,9 @@
 node_modules
 /dist
 
-
+# test files
 /tests/e2e/logs/
+/coverage
 
 # local env files
 .env.local
