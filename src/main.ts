@@ -4,7 +4,9 @@ import router from './router';
 import store from './store';
 import i18n from './plugins/i18n';
 import './plugins/interceptors';
-import './registerServiceWorker';
+import './plugins/registerServiceWorker';
+
+import './styles/index.scss';
 
 import App from './App.vue';
 
