@@ -14,6 +14,7 @@
 ## 状态管理
 
 - vuex
+- vuex-class
 - @vue/cli-plugin-vuex
 
 ## 路由
@@ -86,6 +87,7 @@
 - vue-template-compiler
 - vue-class-component
 - vue-property-decorator
+- vue-cli-plugin-pug
 
 ## 格式化
 
