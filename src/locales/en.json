@@ -1,3 +1,8 @@
 {
-  "message": "hello i18n !!"
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "library": "Library",
+    "dynamic": "Dynamic"
+  }
 }

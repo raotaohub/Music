@@ -1,3 +1,8 @@
 {
-  "message": "hello i18n !!"
+  "nav": {
+    "home": "首页",
+    "explore": "探索",
+    "library": "媒体库",
+    "dynamic": "动态"
+  }
 }
