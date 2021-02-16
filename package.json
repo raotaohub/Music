@@ -6,6 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
+    "test:unit-watch": "vue-cli-service test:unit --watch",
+    "test:unit-coverage": "vue-cli-service test:unit --watch --coverage",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
     "changelog": "conventional-changelog -p angular -i ./CHANGELOG.md -s -r 0",
@@ -64,6 +66,7 @@
     "ts-node": "^8.10.2",
     "typescript": "~3.9.3",
     "vue-cli-plugin-i18n": "~1.0.1",
+    "vue-cli-plugin-pug": "~2.0.0",
     "vue-template-compiler": "^2.6.11",
     "wdio-chromedriver-service": "^6.0.3",
     "wdio-geckodriver-service": "^1.1.0"
