@@ -6,9 +6,10 @@ interface IappNavItemConfig {
 }
 
 interface IappConfig {
-  icon?: string;
+  title?: string;
   repo?: string;
   repoLabel?: string;
   docsRepo?: string;
   nav?: IappNavItemConfig[];
+  notFoundMessage?: string[];
 }

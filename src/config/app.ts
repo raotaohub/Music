@@ -1,5 +1,5 @@
 const config: IappConfig = {
-  icon: '@/assets/logo.png',
+  title: 'Music',
   repo: 'assone/music',
   nav: [
     { text: 'home', link: '/' },
@@ -9,5 +9,5 @@ const config: IappConfig = {
   ],
 };
 
-export const { icon, repo, nav } = config;
+export const { repo, nav } = config;
 export default config;
