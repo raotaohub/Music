@@ -30,7 +30,7 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@prettier/plugin-pug": "^1.13.3",
+    "@prettier/plugin-pug": "^1.13.4",
     "@types/jest": "^24.0.19",
     "@types/mocha": "^8.0.1",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
