@@ -64,7 +64,7 @@
     "stylelint": "^13.10.0",
     "stylelint-config-sass-guidelines": "^8.0.0",
     "stylelint-config-standard": "^20.0.0",
-    "ts-node": "^8.10.2",
+    "ts-node": "^9.1.1",
     "typescript": "~3.9.3",
     "vue-cli-plugin-i18n": "~1.0.1",
     "vue-cli-plugin-pug": "~2.0.0",
